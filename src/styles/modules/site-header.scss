@@ -1,12 +1,13 @@
 /*================ Site Header ================*/
 .site-logo {
   display: block;
-  background-color: pink;
-  color: yellow;
+  background-color: aquamarine;
+  color: indigo;
   text-align: center;
   text-transform: uppercase;
 
   img {
     display: block;
+    border: 2px solid aquamarine;
   }
 }

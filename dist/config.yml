@@ -14,6 +14,19 @@
 ---
 development:
   password: THEMEKIT_PASSWORD
+  theme_id: "163808707"
+  store: cb-bamboo.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+staging:
+  password: THEMEKIT_PASSWORD
+  theme_id: "163824835"
+  store: cb-bamboo.myshopify.com
+  ignore_files:
+    - config/settings_data.json
+production:
+  password: THEMEKIT_PASSWORD
   theme_id: "162599811"
   store: cb-bamboo.myshopify.com
   ignore_files:
+    - config/settings_data.json
