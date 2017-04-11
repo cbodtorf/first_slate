@@ -25,3 +25,9 @@
 /*================ MODULES ================*/
 @import url('modules/site-header.scss');
 @import url('modules/gift-card-template.scss');
+
+
+/*============= DEV UTIL ================*/
+.shopify-preview-bar {
+  display: none;
+}

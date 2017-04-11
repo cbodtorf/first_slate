@@ -14,19 +14,21 @@
 ---
 development:
   password: THEMEKIT_PASSWORD
-  theme_id: "163808707"
+  theme_id: 163808707
   store: cb-bamboo.myshopify.com
+  # proxy: https://localhost:3000?key=bca37fe1b9ac4182e15600e899400400&preview_theme_id=163808707
   ignore_files:
     - config/settings_data.json
 staging:
   password: THEMEKIT_PASSWORD
   theme_id: "163824835"
   store: cb-bamboo.myshopify.com
+  # proxy: https://localhost:3000?key=bca37fe1b9ac4182e15600e899400400&preview_theme_id=163824835
   ignore_files:
     - config/settings_data.json
 production:
   password: THEMEKIT_PASSWORD
-  theme_id: "162599811"
+  theme_id: 162599811
   store: cb-bamboo.myshopify.com
   ignore_files:
     - config/settings_data.json
